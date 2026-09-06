@@ -1,0 +1,18 @@
+---
+title: "Welcome"
+author: "Gage Rowden"
+date: "2026-09-06"
+categories: [news]
+image: https://media.swncdn.com/via/images/2023/08/11/32042/32042-seraphim_source_file.jpg
+---
+
+## Introduction
+This blog is my attempt to participate in a bible study as an agnostic atheist. Last week, I was talking with my mom on the phone, and she mentioned she was going to her bible study group. I was on my commute, so I had some time to talk. I asked what they were studying, and she said the current topic is the gospel of Mark.
+
+As a former baptist turned atheist, I of course have a casual interest in biblical study. Long story short, I offered to join her bible study group asynchronously (the group meets Thursday mornings while I'm at work). This blog will serve as my written analysis that she may (or may not) want to share with the group.
+
+
+## Methodology
+The rubric we are following was devised by [Kay Arthur](https://en.wikipedia.org/wiki/Kay_Arthur), an evangelical author who gained prominence in the 80's and 90's. She promoted a style of study known as [inductive bible study](https://www.precept.org/2023/02/what-is-inductive-bible-study/) which on the surface I find an interesting method. My experience as a research scientist requires constant implementation of inductive reasoning (i.e. building evidence to falsify a hypothesis). 
+
+From her organization's website, [Precept.org](https://www.precept.org/2023/02/what-is-inductive-bible-study/), the main objective of this method is *"...to draw you into personal interaction with the Bible and thus with the God of the Bible! By knowing God through knowing His Word—and living by the truths the Holy Spirit reveals to you through Scripture—your life will radically change."*
