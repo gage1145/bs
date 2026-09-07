@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This blog is my attempt to participate in a bible study as an agnostic atheist. Last week, I was talking with my mom on the phone, and she mentioned she was going to her bible study group. I was on my commute, so I had some time to talk. I asked what they were studying, and she said this semester’s topic is the gospel of Mark.\nAs a former Christian, I of course have a casual interest in biblical study. Long story short, I offered to join her bible study group asynchronously (the group meets Thursday mornings while I’m at work). This blog will serve as my written analysis that she may (or may not) want to share with the group."
+  },
+  {
+    "objectID": "posts/welcome/index.html#introduction",
+    "href": "posts/welcome/index.html#introduction",
+    "title": "Welcome",
+    "section": "",
+    "text": "This blog is my attempt to participate in a bible study as an agnostic atheist. Last week, I was talking with my mom on the phone, and she mentioned she was going to her bible study group. I was on my commute, so I had some time to talk. I asked what they were studying, and she said this semester’s topic is the gospel of Mark.\nAs a former Christian, I of course have a casual interest in biblical study. Long story short, I offered to join her bible study group asynchronously (the group meets Thursday mornings while I’m at work). This blog will serve as my written analysis that she may (or may not) want to share with the group."
+  },
+  {
+    "objectID": "posts/welcome/index.html#methodology",
+    "href": "posts/welcome/index.html#methodology",
+    "title": "Welcome",
+    "section": "Methodology",
+    "text": "Methodology\nThe rubric we are following was devised by Kay Arthur, an evangelical author who gained prominence in the 80’s and 90’s. She promoted a style of study known as inductive bible study, which on the surface I find appealing. The label refers to starting with the text itself, observing what it says before interpreting or applying it, rather than beginning from a commentary or received doctrine. This appeals to my instinct as a data scientist: build conclusions up from observation rather than down from authority.\nFrom her organization’s website, Precept.org, the main objective of this method is to “…draw you into personal interaction with the Bible and thus with the God of the Bible! By knowing God through knowing His Word—and living by the truths the Holy Spirit reveals to you through Scripture—your life will radically change.”\nWhere the analogy breaks down is that a bona-fide inductive approach allows the observations to constrain the conclusion, thus introducing the possibility that the conclusion is wrong. Formal induction generalizes from evidence without ever guaranteeing the result, and science pairs it with deductive testing (deriving predictions from a hypothesis and actively try to falsify them). This method does neither. The conclusion, that the god of the Bible is real and that Scripture is his word, is settled before the first observation is made; the study can refine your understanding of it but isn’t built to let the text speak for itself. I allow some grace here, since that central claim isn’t the kind of thing that could be falsified in the first place."
+  },
+  {
+    "objectID": "posts/welcome/index.html#conclusion",
+    "href": "posts/welcome/index.html#conclusion",
+    "title": "Welcome",
+    "section": "Conclusion",
+    "text": "Conclusion\nI’m not really sure what I will get out of this type of study, but I plan to keep an open mind. Many discoveries come from unexpected sources. I certainly don’t expect this will change my views on religion, however. My worldview is simply too diametrically opposed to the concepts of religion on a fundamental level. I generally don’t believe religion or Christianity specifically has proven a benefit to humanity nor do I find faith to be a virtue.\nRegardless, I vow to approach this study honestly and as non-biased as possible. My approach might be slightly different given that I don’t pressupose the existence of god(s), so unfortunately I can’t implement this method the way Kay, my mom, or the women of her bible study intended. I’m excited to see where this experience takes me and I do look forward to sharing in my mom’s interests, even though we share those interests for arguably opposite reasons."
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nA Quarto website — a personal blog documenting the author’s participation in a bible study, written from an agnostic-atheist perspective. It is a static site (no application code, no build scripts, no package manager); all content lives in .qmd (Quarto Markdown) files.\nYou serve primarily as a writing reviewer, fact checker, and biblical researcher as needed.\n\n\n\nQuarto CLI must be installed (https://quarto.org/docs/get-started/) and available on PATH.\n\nquarto preview — serve the site locally with live reload while editing.\nquarto render — build the static site into _site/ (gitignored).\nquarto check — verify the Quarto installation/environment if rendering misbehaves.\n\nThere is no test suite, linter, or CI config in this repo.\n\n\n\n\n_quarto.yml — site-level config: project type (website), navbar links, and the HTML theme/CSS (format.html). Changing site title, nav, or global theme happens here.\nindex.qmd — the home page; renders as a post listing (listing.contents: posts) sorted by date descending, with categories enabled.\nposts/ — each subdirectory is one blog post, containing an index.qmd with YAML frontmatter (title, author, date, categories, image). New posts are added by creating a new posts/&lt;slug&gt;/index.qmd.\nposts/_metadata.yml — shared frontmatter defaults applied to every post (currently freeze: true for computational output and title-block-banner: true).\nabout.qmd — About page using Quarto’s jolla about-page template.\nstyles.css — custom CSS layered on top of the yeti Bootstrap theme set in _quarto.yml.\n_site/ and .quarto/ — generated build output and Quarto’s internal cache; both gitignored, never edit directly.\n\n\n\n\n\nPost dates in frontmatter use YYYY-MM-DD and should reflect the actual/intended publish date.\nPosts use the categories frontmatter field (e.g. [post]) for the listing page’s category filter.\nTone: first-person, reflective essay style, written for the author’s mother’s bible study group."
+  },
+  {
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "A Quarto website — a personal blog documenting the author’s participation in a bible study, written from an agnostic-atheist perspective. It is a static site (no application code, no build scripts, no package manager); all content lives in .qmd (Quarto Markdown) files.\nYou serve primarily as a writing reviewer, fact checker, and biblical researcher as needed."
+  },
+  {
+    "objectID": "CLAUDE.html#commands",
+    "href": "CLAUDE.html#commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Quarto CLI must be installed (https://quarto.org/docs/get-started/) and available on PATH.\n\nquarto preview — serve the site locally with live reload while editing.\nquarto render — build the static site into _site/ (gitignored).\nquarto check — verify the Quarto installation/environment if rendering misbehaves.\n\nThere is no test suite, linter, or CI config in this repo."
+  },
+  {
+    "objectID": "CLAUDE.html#architecture",
+    "href": "CLAUDE.html#architecture",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "_quarto.yml — site-level config: project type (website), navbar links, and the HTML theme/CSS (format.html). Changing site title, nav, or global theme happens here.\nindex.qmd — the home page; renders as a post listing (listing.contents: posts) sorted by date descending, with categories enabled.\nposts/ — each subdirectory is one blog post, containing an index.qmd with YAML frontmatter (title, author, date, categories, image). New posts are added by creating a new posts/&lt;slug&gt;/index.qmd.\nposts/_metadata.yml — shared frontmatter defaults applied to every post (currently freeze: true for computational output and title-block-banner: true).\nabout.qmd — About page using Quarto’s jolla about-page template.\nstyles.css — custom CSS layered on top of the yeti Bootstrap theme set in _quarto.yml.\n_site/ and .quarto/ — generated build output and Quarto’s internal cache; both gitignored, never edit directly."
+  },
+  {
+    "objectID": "CLAUDE.html#content-conventions",
+    "href": "CLAUDE.html#content-conventions",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Post dates in frontmatter use YYYY-MM-DD and should reflect the actual/intended publish date.\nPosts use the categories frontmatter field (e.g. [post]) for the listing page’s category filter.\nTone: first-person, reflective essay style, written for the author’s mother’s bible study group."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bible Study",
+    "section": "",
+    "text": "Welcome\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\nSep 6, 2026\n\n\nGage Rowden\n\n\n\n\n\n\nNo matching items"
+  }
+]
