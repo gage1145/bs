@@ -2,17 +2,24 @@
 title: "Welcome"
 author: "Gage Rowden"
 date: "2026-09-06"
-categories: [news]
+categories: [post]
 image: https://media.swncdn.com/via/images/2023/08/11/32042/32042-seraphim_source_file.jpg
 ---
 
 ## Introduction
-This blog is my attempt to participate in a bible study as an agnostic atheist. Last week, I was talking with my mom on the phone, and she mentioned she was going to her bible study group. I was on my commute, so I had some time to talk. I asked what they were studying, and she said the current topic is the gospel of Mark.
+This blog is my attempt to participate in a bible study as an agnostic atheist. Last week, I was talking with my mom on the phone, and she mentioned she was going to her bible study group. I was on my commute, so I had some time to talk. I asked what they were studying, and she said this semester's topic is the gospel of Mark.
 
-As a former baptist turned atheist, I of course have a casual interest in biblical study. Long story short, I offered to join her bible study group asynchronously (the group meets Thursday mornings while I'm at work). This blog will serve as my written analysis that she may (or may not) want to share with the group.
+As a former Christian, I of course have a casual interest in biblical study. Long story short, I offered to join her bible study group asynchronously (the group meets Thursday mornings while I'm at work). This blog will serve as my written analysis that she may (or may not) want to share with the group.
 
 
 ## Methodology
-The rubric we are following was devised by [Kay Arthur](https://en.wikipedia.org/wiki/Kay_Arthur), an evangelical author who gained prominence in the 80's and 90's. She promoted a style of study known as [inductive bible study](https://www.precept.org/2023/02/what-is-inductive-bible-study/) which on the surface I find an interesting method. My experience as a research scientist requires constant implementation of inductive reasoning (i.e. building evidence to falsify a hypothesis). 
+The rubric we are following was devised by [Kay Arthur](https://en.wikipedia.org/wiki/Kay_Arthur), an evangelical author who gained prominence in the 80's and 90's. She promoted a style of study known as [inductive bible study](https://www.precept.org/2023/02/what-is-inductive-bible-study/) which on the surface I find an effective method. My experience as a research scientist requires constant implementation of inductive reasoning (i.e. building evidence to falsify a claim). 
 
-From her organization's website, [Precept.org](https://www.precept.org/2023/02/what-is-inductive-bible-study/), the main objective of this method is *"...to draw you into personal interaction with the Bible and thus with the God of the Bible! By knowing God through knowing His Word—and living by the truths the Holy Spirit reveals to you through Scripture—your life will radically change."*
+From her organization's website, [Precept.org](https://www.precept.org/2023/02/what-is-inductive-bible-study/), the main objective of this method is to *"...draw you into personal interaction with the Bible and thus with the God of the Bible! By knowing God through knowing His Word—and living by the truths the Holy Spirit reveals to you through Scripture—your life will radically change."*
+
+I don't find this necessarily to be an honest implementation of inductive reasoning in that the conclusion has already been presupposed to be true. I allow some grace since true inductive reasoning requires that a claim be falsifiable which, of course, the god of the Bible is not. 
+
+## Conclusion
+I'm not really sure what I will get out of this type of study, but I plan to keep an open mind. Many discoveries come from unexpected sources. I certainly don't expect this will change my views on religion, however. My worldview is simply too diametrically opposed to the concepts of religion on a fundamental level. I generally don't believe religion or Christianity specifically has proven a benefit to humanity nor do I find faith to be a virtue. 
+
+I will approach this study non-judgmentally, regardless. My approach might be slightly different given that I don't pressupose the existence of god(s), so unfortunately I can't implement this method the way ol' Kay intended. I'm interested to see where this experience takes me and I do look forward to sharing in my mom's interests, even though we share those interests for opposite reasons.
