@@ -1,2 +1,7 @@
 /.quarto/
 /_site/
+
+**/*.quarto_ipynb
+
+bible/
+_bible-sidebar.yml

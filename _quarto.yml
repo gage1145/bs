@@ -1,19 +1,21 @@
 project:
   type: website
+  render: ["!bible/"]
+  resources:
+    - bible/images/**
+
+# The Bible sidebar is generated from the EPUB nav by scripts/build-bible.R.
+metadata-files:
+  - _bible-sidebar.yml
 
 website:
   title: "Bible Study"
+  page-navigation: true
   navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+    left:
+      - text: "Bible"
+        href: bible/index.qmd
 format:
   html:
-    theme: yeti
+    theme: solar
     css: styles.css
-
-
-

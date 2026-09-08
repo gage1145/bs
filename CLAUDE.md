@@ -15,6 +15,9 @@ Quarto CLI must be installed (https://quarto.org/docs/get-started/) and availabl
 - `quarto preview` — serve the site locally with live reload while editing.
 - `quarto render` — build the static site into `_site/` (gitignored).
 - `quarto check` — verify the Quarto installation/environment if rendering misbehaves.
+- `Rscript scripts/build-bible.R` — regenerate the Bible reference pages from the EPUB.
+  Only needed if the EPUB or the generator changes; the output is committed. Requires
+  `xml2` and `stringr` (`renv::restore()`, or `renv::install(c("xml2","stringr"))`).
 
 There is no test suite, linter, or CI config in this repo.
 
@@ -27,6 +30,24 @@ There is no test suite, linter, or CI config in this repo.
 - `about.qmd` — About page using Quarto's `jolla` about-page template.
 - `styles.css` — custom CSS layered on top of the `yeti` Bootstrap theme set in `_quarto.yml`.
 - `_site/` and `.quarto/` — generated build output and Quarto's internal cache; both gitignored, never edit directly.
+
+### Bible reference pages
+
+`resources/bible.epub` is *The New Oxford Annotated Bible with Apocrypha*, 5th ed. (OUP, 2018),
+used as the study's reference text.
+
+- `scripts/build-bible.R` — one-time generator. Unpacks the EPUB once and transforms each spine
+  document (one per book) into a static page. **Quarto never runs this**; the EPUB is immutable, so
+  nothing is extracted at render time and no page executes code.
+- `bible/*.qmd` — generated, one page per book/essay. Markdown headings interleaved with
+  ` ```{=html} ` raw blocks so the publisher's markup (verse numbers, small caps, poetry
+  indentation, annotations, footnotes) survives intact and cross-references resolve between pages.
+- `bible/bible.css` — generated from the EPUB's own stylesheet. Loaded only on `bible/` pages via
+  `bible/_metadata.yml`, so its rules cannot leak into the rest of the site.
+- `_bible-sidebar.yml` — generated sidebar, merged in through `metadata-files` in `_quarto.yml`.
+
+Everything under `bible/`, plus `_bible-sidebar.yml`, is generated output. Edit
+`scripts/build-bible.R` and regenerate rather than editing those files by hand.
 
 ## Content conventions
 
