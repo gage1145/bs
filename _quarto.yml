@@ -1,6 +1,6 @@
 project:
   type: website
-  render: ["!bible/"]
+  # render: ["!bible/"]
   resources:
     - bible/images/**
 
